@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.blink-fast {
+  animation: blink 2.5s infinite;
+}
