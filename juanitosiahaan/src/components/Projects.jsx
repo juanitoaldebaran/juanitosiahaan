@@ -11,7 +11,7 @@ export default function Projects() {
       tech: ["TypeScript", "Flask", "Docker", "Scikit Learn"],
       github: "",
       demo: "",
-      image: "creditcard_img.png",
+      image: "/assets/creditcard_img.png",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export default function Projects() {
       tech: ["TypeScript", "ReactJS", "Spring Boot", "Flask", "Scikit Learn", "PostgreSQL"],
       github: "https://github.com/juanitoaldebaran/AldebaranHealth",
       demo: "https://aldebaran-health.vercel.app/",
-      image: "AldebaranHealth_img.png",
+      image: "/assets/AldebaranHealth_img.png",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ export default function Projects() {
       tech: ["TypeScript", "ReactJS", "Spring Boot", "Flask", "Scikit Learn", "PostgreSQL"],
       github: "https://github.com/juanitoaldebaran/AldebaranTutor",
       demo: "https://aldebaran-tutor.vercel.app/",
-      image: "AldebaranTutor_img.png",
+      image: "/assets/AldebaranTutor_img.png",
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ export default function Projects() {
       tech: ["NexJS", "Flask", "Scikit Learn"],
       github: "https://github.com/juanitoaldebaran/estockpal",
       demo: "https://e-stock-pal.vercel.app/market",
-      image: "eStockPal_img.png",
+      image: "/assets/eStockPal_img.png",
     },
   ];
 

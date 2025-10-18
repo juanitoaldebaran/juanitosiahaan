@@ -88,7 +88,7 @@ export default function Home() {
           <div className="relative group">
             <div className="absolute inset-0 rounded-full border-4 border-blue-600 blur-lg opacity-70 group-hover:opacity-100 transition-all duration-300"></div>
             <motion.img
-              src="/src/assets/JuanitoSiahaan.jpeg"
+              src="/assets/JuanitoSiahaan.jpeg"
               alt="Juanito Siahaan"
               className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover rounded-full border-4 mt-20 border-white shadow-xl group-hover:scale-105 transition-transform duration-300"
               whileHover={{ scale: 1.05 }}

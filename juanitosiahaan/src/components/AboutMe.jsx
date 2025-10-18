@@ -75,7 +75,7 @@ export default function AboutMe() {
                 {images.map((image, index) => (
                     <motion.img
                     key={index}
-                    src={`src/assets/${image}`}
+                    src={`assets/${image}`}
                     alt={`JuanitoSiahaan${index}`}
                     className="w-44 h-44 sm:w-56 sm:h-56 object-cover rounded-2xl border border-blue-900/40 shadow-2xl hover:shadow-blue-400/40 transition-all duration-300"
                     initial={{ rotate: (index - 1.5) * 4, y: 30, opacity: 0 }}
