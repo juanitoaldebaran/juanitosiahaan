@@ -49,21 +49,32 @@ export default function Home() {
             Currently exploring Artificial Intelligence and Machine Learning.
           </p>
 
-          <div className="flex justify-center md:justify-start">
-            <button className="relative font-mono text-blue-400 mt-6 border border-blue-500 bg-black/40 px-4 py-2 sm:px-6 sm:py-3 rounded-md overflow-hidden group hover:bg-blue-500/20 transition-all duration-300 shadow-[0_0_15px_rgba(37,99,235,0.4)] text-sm sm:text-base">
-              <span className="relative z-10 flex items-center flex-wrap gap-2 justify-center md:justify-start">
-                <span className="text-gray-400">(base)</span>
-                <span className="text-blue-600 font-semibold">
-                  juanitoaldebaransiahaan@cv:
-                </span>
-                <span className="text-white">~$</span>
-                <span className="text-blue-600 group-hover:text-blue-200 transition-colors duration-300">
-                  download_cv.pdf
-                </span>
-                <span className="text-blue-400 animate-pulse">▮</span>
-              </span>
-            </button>
-          </div>
+         <div className="flex justify-center md:justify-start">
+  <motion.a
+    href="/assets/Juanito_Aldebaran_Siahaan_Resume.pdf"
+    download="Juanito_Aldebaran_Siahaan_Resume.pdf"
+    whileHover={{
+      scale: 1.05,
+      boxShadow: "0px 0px 20px rgba(37,99,235,0.6)",
+    }}
+    whileTap={{ scale: 0.95 }}
+    className="relative group font-mono text-blue-400 mt-6 border border-blue-600 bg-black/60 px-6 py-3 rounded-xl overflow-hidden hover:bg-blue-500/20 transition-all duration-300 text-sm sm:text-base shadow-[0_0_15px_rgba(37,99,235,0.4)]"
+  >
+
+    <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-blue-500 to-indigo-600 opacity-0 group-hover:opacity-30 blur-md transition-opacity duration-500"></div>
+
+    <span className="relative z-10 flex items-center gap-2 justify-center md:justify-start">
+      <span className="text-gray-400">(base)</span>
+      <span className="text-blue-500 font-semibold">juanitoaldebaransiahaan@cv:</span>
+      <span className="text-white">~$</span>
+      <span className="text-blue-400 group-hover:text-blue-200 transition-colors duration-300">
+        download_resume.pdf
+      </span>
+      <span className="text-blue-400 animate-pulse">▮</span>
+    </span>
+  </motion.a>
+</div>
+
 
           <div className="flex justify-center md:justify-start mt-6">
             <div className="flex flex-wrap items-center justify-center gap-6 border border-white/30 p-4 rounded-lg">
