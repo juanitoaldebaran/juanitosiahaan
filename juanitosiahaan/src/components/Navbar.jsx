@@ -51,7 +51,7 @@ export default function Navbar() {
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            href="https://linkedin.com/in/juanitoaldebaransiahaan"
+            href="https://www.linkedin.com/in/juanitosiahaan/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white relative group"
@@ -96,7 +96,7 @@ export default function Navbar() {
               <FaGithub className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com/in/juanitoaldebaransiahaan"
+              href="https://www.linkedin.com/in/juanitosiahaan/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white"
