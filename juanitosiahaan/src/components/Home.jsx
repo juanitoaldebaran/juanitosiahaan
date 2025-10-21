@@ -81,7 +81,7 @@ export default function Home() {
               <a href="https://github.com/juanitoaldebaran" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="text-white text-2xl hover:text-blue-800 transition-all duration-200" />
               </a>
-              <a href="https://linkedin.com/in/juanitoaldebaransiahaan" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/juanitosiahaan" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-white text-2xl hover:text-blue-800 transition-all duration-200" />
               </a>
               <a href="mailto:juanitosiahaan1711@gmail.com">

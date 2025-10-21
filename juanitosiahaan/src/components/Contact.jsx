@@ -4,8 +4,8 @@ import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 export default function Contact() {
   const socials = [
     {
-      name: "linkedin.com/in/juanitoaldebaransiahaan/",
-      link: "https://www.linkedin.com/in/juanitoaldebaransiahaan/",
+      name: "linkedin.com/in/juanitosiahaan/",
+      link: "https://www.linkedin.com/in/juanitosiahaan/",
       icon: <FaLinkedin />,
     },
     {
